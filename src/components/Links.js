@@ -14,8 +14,7 @@ const Nav = () => (
       <p> 2023</p>
     </div>
     <div className="nav-center">
-      <img src="" alt="Crypto logo" width="50px" />
-      <p> Crypto Tracker App</p>
+      <p> CryptoCurrency Tracker App</p>
     </div>
     <div className="nav-right">
       <NavLink to="/"><FaMicrophone className="icons" /></NavLink>

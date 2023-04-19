@@ -19,7 +19,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 10px 0;
-  background-color: #31130c;
+  background-color: #0800009c;
   color: white;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -64,7 +64,7 @@ body {
 }
 
 .home-serch {
-  width: 60%;
+  width: 65%;
   display: flex;
   align-self: center;
   justify-content: center;
@@ -96,7 +96,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  border-radius: 1px;
+  border-radius: 2px;
   box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.2);
 }
 
@@ -174,12 +174,12 @@ td {
 }
 
 tr:nth-child(even) {
-  background-color: #150f0f;
+  background-color: #504242;
   color: white;
 }
 
 tr:nth-child(odd) {
-  background-color: #1f096f;
+  background-color: #287ec4;
   color: white;
 }
 
