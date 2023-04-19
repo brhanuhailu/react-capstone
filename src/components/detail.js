@@ -24,11 +24,11 @@ const Details = () => {
           <table key={coin.id}>
             <tbody>
               <tr>
-                <th>Rank</th>
+                <th>Market Rank</th>
                 <td>{coin.rank}</td>
               </tr>
               <tr>
-                <th>Name</th>
+                <th>Coin Name</th>
                 <td>{coin.name}</td>
               </tr>
               <tr>
@@ -48,21 +48,21 @@ const Details = () => {
                 <td>{coin.volume}</td>
               </tr>
               <tr>
-                <th>Price change / hours</th>
+                <th>Price change per an hours</th>
                 <td>
                   {coin.pricechange1h}
                   %
                 </td>
               </tr>
               <tr>
-                <th>Price Change/ day</th>
+                <th>Price Change per a day</th>
                 <td>
                   {coin.pricechange1d}
                   %
                 </td>
               </tr>
               <tr>
-                <th>Price Change/week</th>
+                <th>Price Change per a week</th>
                 <td>
                   {coin.pricechange1w}
                   %
