@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Home renders correctly 1`] = `
+exports[`Home page should renders home page correctly 1`] = `
 <header
   className="coin-container"
 >
