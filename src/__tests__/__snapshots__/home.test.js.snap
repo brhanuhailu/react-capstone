@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home renders correctly 1`] = `
+<header
+  className="coin-container"
+>
+  <div
+    className="home-serch"
+  >
+    <input
+      onChange={[Function]}
+      placeholder="Search Coin..."
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="home-list"
+  >
+    <h1>
+      No related coins found!
+    </h1>
+  </div>
+</header>
+`;
