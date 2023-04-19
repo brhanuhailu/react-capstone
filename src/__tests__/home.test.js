@@ -5,16 +5,16 @@ import Home from '../components/home';
 import store from '../redux/store';
 
 describe('Home', () => {
-    it('renders correctly', () => {
-        const tree = renderer
-        .create(
-            <Provider store={store}>
-            <BrowserRouter>
-                <Home />
-            </BrowserRouter>
-            </Provider>,
-        )
-        .toJSON();
-        expect(tree).toMatchSnapshot();
-    });
-    });
+  it('renders correctly', () => {
+    const tree = renderer
+      .create(
+        <Provider store={store}>
+          <BrowserRouter>
+            <Home />
+          </BrowserRouter>
+        </Provider>,
+      )
+      .toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+});
