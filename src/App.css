@@ -231,7 +231,7 @@ a:focus-visible {
 
   .home-list {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding: 4px;
     gap: 8px;
     margin-right: 24px;
