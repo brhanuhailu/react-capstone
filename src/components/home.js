@@ -24,12 +24,12 @@ const Home = () => {
   }
 
   return (
-    <header className="home-container">
+    <header className="coin-container">
       <div className="home-serch">
         <input
           type="text"
           value={search}
-          placeholder="Search Coins..."
+          placeholder="Search Coin..."
           onChange={handleSearch}
         />
       </div>

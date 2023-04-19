@@ -6,7 +6,7 @@ body {
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
-  background-color: #f5f5f5;
+  background-color: #ebe0e0;
 }
 
 .main-nav {
@@ -50,7 +50,7 @@ body {
   color: #f5f5f5;
 }
 
-.home-container {
+.coin-container {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -58,7 +58,7 @@ body {
   top: 90px;
 }
 
-.home-container h1 {
+.coin-container h1 {
   font-size: 20px;
   margin: 0;
 }
@@ -217,7 +217,7 @@ a:focus-visible {
     gap: 5px;
   }
 
-  .home-container h1 {
+  .coin-container h1 {
     font-size: 8px;
     margin: 0;
     padding: 0;
@@ -225,15 +225,14 @@ a:focus-visible {
 
   .home-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5px;
-    padding: 5px;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 4px;
   }
 
   .container-card {
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     font-size: 11px;
     gap: 0;

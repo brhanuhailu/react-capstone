@@ -105,6 +105,29 @@ Install this project with:
   cd my-project
   npm install
 ```
+### set-up react up
+
+setup the project with:
+
+```sh
+  npx create-react-app ./
+```
+
+### set-up redux
+
+install the redux in project with:
+
+```sh
+  npm i react-redux
+```
+
+### install react-icons
+
+to react-icons in your project install the icons using:
+
+```sh
+  npm i react-icons
+```
 
 ### Usage
 
