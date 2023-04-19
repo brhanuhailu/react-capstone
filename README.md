@@ -71,13 +71,15 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- GETTING STARTED -->
+<!-- LIVE DEMO -->
+
 ## 🚀 video desc <a name="live-demo"></a>
 
 - [video description Link ](https://www.loom.com/share/d1fbde3cb8544bb6853b2233ecc6a938)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -220,7 +222,7 @@ If you like this project please give a⭐️ and share with your friends.
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank @Microverse.
-
+And to the Original designer  [Nelson Sakwa on Behance ](https://www.behance.net/sakwadesignstudio).
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ❓ FAQ (OPTIONAL) <a name="faq"></a>
