@@ -3,8 +3,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import Home from '../components/home';
 import store from '../redux/store';
-import { fetchCrypto, getdetails } from '../redux/crypto/cryptoSlice';
-import cryptoSlice from '../redux/crypto/cryptoSlice';
+import cryptoSlice, { fetchCrypto, getdetails } from '../redux/crypto/cryptoSlice';
 
 describe('Home page', () => {
   beforeEach(async () => {
@@ -25,25 +24,25 @@ describe('Home page', () => {
   });
 });
 
-describe("Tests redux pure functions", () => {
+describe('Tests redux pure functions', () => {
   const initialState = {
     isLoding: false,
     crypto: [
-      { id: 1, name: "Bitcoin", show: false },
-      { id: 2, name: "Ethereum", show: false },
+      { id: 1, name: 'Bitcoin', show: false },
+      { id: 2, name: 'Ethereum', show: false },
     ],
     isEror: false,
   };
   const expectedValue = {
     isLoding: false,
     crypto: [
-      { id: 1, name: "Bitcoin", show: true },
-      { id: 2, name: "Ethereum", show: false },
+      { id: 1, name: 'Bitcoin', show: true },
+      { id: 2, name: 'Ethereum', show: false },
     ],
     isEror: false,
   };
   const action = getdetails(1);
   const reducer = cryptoSlice(initialState, action);
-  expect(action.type).toEqual("crypto/getdetails");
-  expect(reducer).toEqual(expectedValue)
+  expect(action.type).toEqual('crypto/getdetails');
+  expect(reducer).toEqual(expectedValue);
 });
